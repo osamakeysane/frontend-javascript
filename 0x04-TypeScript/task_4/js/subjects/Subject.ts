@@ -1,3 +1,5 @@
+// prettier-ignore
+
 namespace Subjects {
   export interface Teacher {
     firstName: string;
@@ -7,7 +9,7 @@ namespace Subjects {
   export class Subject {
     teacher: Teacher;
 
-    setTeacher(teacher: Teacher): void {
+    setTeacher(teacher:Teacher): void {
       this.teacher = teacher;
     }
   }
